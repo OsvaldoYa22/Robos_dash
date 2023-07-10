@@ -13,7 +13,7 @@ data4 = gpd.read_file('assets/PRONOSTICO_DIARIO.csv')
 data4['Fecha'] = pd.to_datetime(data4['Fecha']).dt.strftime('%Y-%m-%d')
 data4['Frecuencia'] = pd.to_numeric(data4['Frecuencia'], errors='coerce').fillna(0)
 data5 = gpd.read_file('assets/RESIDUALES_DIARIO.csv')
-#data5['forecast'] = data5['forecast'].astype(float)
+data5['forecast'] = data5['forecast'].astype(float)
 
 # RESIDUOS_01 
 def func(n_clicks):
@@ -93,7 +93,7 @@ def update_graph_ST3(value):
     fig = None
     if value == 'Data_FGJ':
         fig = go.Figure()
-        fig = ff.create_distplot([data5['forecast']], ['Residuales'], show_hist=True, show_curve=True, show_rug=True)
+        fig = ff.create_distplot([data5['forecast']],  show_hist=True, show_curve=True, show_rug=True)
         fig.update_layout(margin = dict(t = 15, l = 7, r = 7, b = 5),showlegend=False) 
     else:
         x = np.linspace(0, 10, 100)

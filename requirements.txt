@@ -1,7 +1,7 @@
 dash
 numpy
-plotly.express
+plotly
 pandas
 geopandas
-plotly.graph_objects
-plotly.figure_factory
+plotly
+plotly

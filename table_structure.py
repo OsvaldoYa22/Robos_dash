@@ -23,7 +23,7 @@ def render_content_table(tab):
                                        #html.Span("FGJ",style={'font-size':15,'padding-left':10}),
                                    ], 'value': 'Data_FGJ'},
                                    {'label': [
-                                       html.Img(src="/assets/C5.png", height=60),
+                                       html.Img(src="/assets/C5.PNG", height=60),
                                        #html.Span("C5",style={'font-size':15,'padding-left':10,'color':'#AA1818'}),
                                    ], 'value': 'Data_C5'}
                                ], value = 'Data_FGJ',
@@ -62,7 +62,7 @@ def render_content_table(tab):
                                        #html.Span("FGJ",style={'font-size':15,'padding-left':10}),
                                    ], 'value': 'Data_FGJ'},
                                    {'label': [
-                                       html.Img(src="/assets/C5.png", height=60),
+                                       html.Img(src="/assets/C5.PNG", height=60),
                                        #html.Span("C5",style={'font-size':15,'padding-left':10,'color':'#AA1818'}),
                                    ], 'value': 'Data_C5'}
                                ], value = 'Data_FGJ',

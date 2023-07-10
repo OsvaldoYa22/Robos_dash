@@ -1,0 +1,9 @@
+dash
+dash.dependencies
+dash_bootstrap_components
+numpy
+plotly.express
+pandas
+geopandas
+plotly.graph_objects
+plotly.figure_factory

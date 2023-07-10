@@ -1,6 +1,4 @@
 dash
-dash.dependencies
-dash_bootstrap_components
 numpy
 plotly.express
 pandas

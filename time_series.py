@@ -13,7 +13,7 @@ data4 = gpd.read_file('assets/PRONOSTICO_DIARIO.csv')
 data4['Fecha'] = pd.to_datetime(data4['Fecha']).dt.strftime('%Y-%m-%d')
 data4['Frecuencia'] = pd.to_numeric(data4['Frecuencia'], errors='coerce').fillna(0)
 data5 = gpd.read_file('assets/RESIDUALES_DIARIO.csv')
-data5['forecast'] = data5['forecast'].astype(float)
+#data5['forecast'] = data5['forecast'].astype(float)
 
 # RESIDUOS_01 
 def func(n_clicks):

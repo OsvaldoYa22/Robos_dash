@@ -5,4 +5,4 @@ plotly
 pandas
 geopandas
 gunicorn
-plotly.figure_factory
+

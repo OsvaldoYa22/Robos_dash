@@ -4,6 +4,5 @@ numpy
 plotly
 pandas
 geopandas
-plotly
 gunicorn
 plotly.figure_factory

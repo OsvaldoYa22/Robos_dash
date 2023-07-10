@@ -59,7 +59,7 @@ def update_graph_st(value):
 @app.callback(Output('Mi_grafica_ST_3', 'figure'),
               Input('origing_data', 'value'))
 def update_sts_3(value):
-    return update_graph_ST2(value)
+    return update_graph_ST3(value)
         
 
 ### ANALISIS DESCRIPTIVO        

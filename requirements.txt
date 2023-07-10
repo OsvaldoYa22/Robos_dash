@@ -4,4 +4,4 @@ plotly
 pandas
 geopandas
 plotly
-plotly
+gunicorn

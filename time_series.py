@@ -93,8 +93,8 @@ def update_graph_ST3(value):
     fig = None
     if value == 'Data_FGJ':
         fig = go.Figure()
-        fig = px.histogram(data5, x="time", y="forecast", marginal="rug",hover_data=data5.columns)
-        #fig = ff.create_distplot([data5['forecast']],  show_hist=True, show_curve=True, show_rug=True)
+        #fig = px.histogram(data5, x="time", y="forecast", marginal="rug",hover_data=data5.columns)
+        fig = ff.create_distplot([data5['forecast']]  )#show_hist=True, show_curve=True, show_rug=True)
         fig.update_layout(margin = dict(t = 15, l = 7, r = 7, b = 5),showlegend=False) 
     else:
         x = np.linspace(0, 10, 100)

@@ -236,3 +236,5 @@ Dentro de cada `html.Div` se mostrara el analsis "Econometrico" o "Descriptivo" 
 <p align="center">
   <img src="/assets/Captura_MOVIL_02.PNG" alt="Imagen centrada" />
 </p>
+
+Esta es una versión __demo__ por lo que algunas funciones no estan completas, como es el caso de los datos de __C5__

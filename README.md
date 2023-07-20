@@ -1,9 +1,5 @@
----
-layout: single
-title: Robos - Dash
-excerpt: " Dash es una libreria de interfaz de usuario/framework de Python para crear aplicaciones web analíticas, por ejemplo el análisis de datos, exploración de datos, visualización, modelado, control de instrumentos e informes.  Dash se basa en Flask, React y Plotly, y combina la potencia de estas tecnologías para proporcionar una manera sencilla de crear aplicaciones web interactivas con visualizaciones de datos dinámicas."
-date: 2023-07-10
----
+## Motivación 
+ Dash es una libreria de interfaz de usuario/framework de Python para crear aplicaciones web analíticas, por ejemplo el análisis de datos, exploración de datos, visualización, modelado, control de instrumentos e informes.  Dash se basa en Flask, React y Plotly, y combina la potencia de estas tecnologías para proporcionar una manera sencilla de crear aplicaciones web interactivas con visualizaciones de datos dinámicas.
 
 ![](/assets/Captura_APP.PNG)
 

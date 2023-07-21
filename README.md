@@ -3,7 +3,7 @@
 
 ![](/assets/Captura_APP.PNG)
 
-Este repositorio le permite mediante un simple `Fork` o `descargando` los archivos correr la aplicación de manera local
+Este repositorio le permite mediante un simple `Fork` o `descargando` los archivos, ejecutar la aplicación de manera local
 ## Requirements
 ```python
 from dash import Dash, dcc, html

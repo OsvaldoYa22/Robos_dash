@@ -38,19 +38,18 @@ def render_content_slid(tab):
 
 
 ### SERIES DE TIEMPO
-# RESIDUOS_01 
 @app.callback(
     Output("download-text_01", "data"),
     Input("btn-download-txt", "n_clicks"),
     prevent_initial_call=True,)
 def func_time(n_clicks):
     return func(n_clicks)
-# GRAFICA ST 1 
+
 @app.callback(Output('Mi_grafica_ST_1', 'figure'),
               Input('origing_data', 'value'))
 def update_graph_s(value):
     return update_graph_ST1(value)  
-# GRAFICA ST 2 
+ 
 @app.callback(Output('Mi_grafica_ST_2', 'figure'),
               Input('origing_data', 'value'))
 def update_graph_st(value):
@@ -63,156 +62,24 @@ def update_sts_3(value):
         
 
 ### ANALISIS DESCRIPTIVO        
-# GRAFICA 1 
+
 @app.callback(Output('Mi_grafica_01_2016', 'figure'),
               Input('origing_data', 'value'))
 def update_graph(value):
     return update_graph_01_2016(value)
-# GRAFICA 2 
+
 @app.callback( 
     Output('Mi_grafica_02_2016', component_property = 'figure'),
     [Input('origing_data', component_property = 'value')])
 def update_graph(value):
     return update_graph_02_2016(value)
-# GRAFICA 4 
+
 @app.callback( 
     Output('Mi_grafica_04_2016', component_property = 'figure'),
     [Input('origing_data', component_property = 'value')])
 def update_graph(value):
     return update_graph_04_2016(value)
 
-
-# GRAFICA 1 2017
-@app.callback(Output('Mi_grafica_01_2017', 'figure'),
-              Input('origing_data', 'value'))
-def update_graph(value):
-    return update_graph_01_2017(value)
-# GRAFICA 2 2017
-@app.callback( 
-    Output('Mi_grafica_02_2017', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_02_2017(value)
-# GRAFICA 4 2017
-@app.callback( 
-    Output('Mi_grafica_04_2017', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_04_2017(value)
-
-
-# GRAFICA 1 2018 
-@app.callback(Output('Mi_grafica_01_2018', 'figure'),
-              Input('origing_data', 'value'))
-def update_graph(value):
-    return update_graph_01_2018(value)
-# GRAFICA 2 2018
-@app.callback( 
-    Output('Mi_grafica_02_2018', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_02_2018(value)
-# GRAFICA 4 2018
-@app.callback( 
-    Output('Mi_grafica_04_2018', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_04_2018(value)
-
-
-# GRAFICA 1 2019
-@app.callback(Output('Mi_grafica_01_2019', 'figure'),
-              Input('origing_data', 'value'))
-def update_graph(value):
-    return update_graph_01_2019(value)
-# GRAFICA 2 2019
-@app.callback( 
-    Output('Mi_grafica_02_2019', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_02_2019(value)
-# GRAFICA 4 2019
-@app.callback( 
-    Output('Mi_grafica_04_2019', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_04_2029(value)
-
-
-# GRAFICA 1 2020
-@app.callback(Output('Mi_grafica_01_2020', 'figure'),
-              Input('origing_data', 'value'))
-def update_graph(value):
-    return update_graph_01_2020(value)
-# GRAFICA 2 2020
-@app.callback( 
-    Output('Mi_grafica_02_2020', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_02_2020(value)
-# GRAFICA 4 2020
-@app.callback( 
-    Output('Mi_grafica_04_2020', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_04_2020(value)
-
-
-# GRAFICA 1 2021
-@app.callback(Output('Mi_grafica_01_2021', 'figure'),
-              Input('origing_data', 'value'))
-def update_graph(value):
-    return update_graph_01_2021(value)
-# GRAFICA 2 2021
-@app.callback( 
-    Output('Mi_grafica_02_2021', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_02_2021(value)
-# GRAFICA 4  2021
-@app.callback( 
-    Output('Mi_grafica_04_2021', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_04_2021(value)
-
-
-# GRAFICA 1 2022
-@app.callback(Output('Mi_grafica_01_2022', 'figure'),
-              Input('origing_data', 'value'))
-def update_graph(value):
-    return update_graph_01_2022(value)
-# GRAFICA 2 2022
-@app.callback( 
-    Output('Mi_grafica_02_2022', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_02_2022(value)
-# GRAFICA 4 2022
-@app.callback( 
-    Output('Mi_grafica_04_2022', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_04_2022(value)
-
-
-# GRAFICA 1 2023
-@app.callback(Output('Mi_grafica_01_2023', 'figure'),
-              Input('origing_data', 'value'))
-def update_graph(value):
-    return update_graph_01_2023(value)
-# GRAFICA 2 2023
-@app.callback( 
-    Output('Mi_grafica_02_2023', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_02_2023(value)
-# GRAFICA 4 2023 
-@app.callback( 
-    Output('Mi_grafica_04_2023', component_property = 'figure'),
-    [Input('origing_data', component_property = 'value')])
-def update_graph(value):
-    return update_graph_04_2023(value)
 
 
 if __name__ == '__main__':
